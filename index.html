@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+  </head>
+  <body>
+  	<!--1-->
+    <div class="container question1">
+    	<h1 class="font-weight-bold">Сколько часовых поясов в России? </h1>
+    	<div class="container">
+      		<div class="border answer1"> 
+        		<h2>10</h2>
+			</div>
+      		<div class="border answer2">
+      			<h2>11</h2>
+      		</div>
+      		<div class="border answer3"  >
+      			<h2>9</h2>
+      		</div>
+    	</div>
+    </div>
+    <!--2-->
+	<div class="container question2" style="display: none;">
+		<h1 class="font-weight-bold">Кто был первым президентом США?</h1>
+		<div class="container">
+	      	<div class="border answer4"> 
+	        	<h2>Джон Кеннеди</h2>
+	        </div>
+	      	<div class="border answer5">
+	      		<h2>Джордж Вашингтон</h2>
+	      	</div>
+	      	<div class="border answer6"  >
+	      		<h2>Авраам Линкольн</h2>
+	      	</div>
+    	</div>
+	</div>
+
+	<!--3-->
+	<div class="container question3" style="display: none;">
+		<h1 class="font-weight-bold">Сколько на Земле материков начинаются на букву А?</h1>
+		<div class="container">
+	      	<div class="border answer7"> 
+	        	<h2>4</h2>
+	        </div>
+	      	<div class="border answer8">
+	      		<h2>5</h2>
+	      	</div>
+	      	<div class="border answer9"  >
+	      		<h2>6</h2>
+	      	</div>
+    	</div>
+	</div>
+
+	<!--4-->
+	<div class="container question4" style="display: none;">
+		<h1 class="font-weight-bold">Из какого мультика этот фрагмент?</h1>
+		<img src="2.gif">
+		<div class="container">
+	      	<div class="border answer10"> 
+	        	<h2>Валли</h2>
+	        </div>
+	      	<div class="border answer11">
+	      		<h2>Город героев</h2>
+	      	</div>
+	      	<div class="border answer12"  >
+	      		<h2>Астробой</h2>
+	      	</div>
+    	</div>
+	</div>
+
+	<!--5-->
+	<div class="container question5" style="display: none;">
+		<h1 class="font-weight-bold">Самое маленькое государство</h1>
+		<div class="container">
+	      	<div class="border answer13"> 
+	        	<h2>Лихтенштейн</h2>
+	        </div>
+	      	<div class="border answer14">
+	      		<h2>Монако</h2>
+	      	</div>
+	      	<div class="border answer15"  >
+	      		<h2>Ватикан</h2>
+	      	</div>
+    	</div>
+	</div>
+	
+	<!--6-->
+	<div class="container question6" style="display: none;">
+		<h1 class="font-weight-bold">Кто является автором этой картины?</h1>
+		<img src="1.jpg">
+		<div class="container">
+	      	<div class="border answer16"> 
+	        	<h2>Мунк</h2>
+	        </div>
+	      	<div class="border answer17">
+	      		<h2>Ван Гог</h2>
+	      	</div>
+	      	<div class="border answer18"  >
+	      		<h2>Пикассо</h2>
+	      	</div>
+    	</div>
+	</div>
+
+	<!--7-->
+	<div class="container question7" style="display: none;">
+		<h1 class="font-weight-bold">Из какого мультика саундтрек?</h1>
+		<audio controls>
+			<source src="1.mp3" type="">
+		</audio>
+		<div class="container">
+	      	<div class="border answer19"> 
+	        	<h2>Красавица и чудовище</h2>
+	        </div>
+	      	<div class="border answer20">
+	      		<h2>Холодное сердце</h2>
+	      	</div>
+	      	<div class="border answer21"  >
+	      		<h2>Русалочка</h2>
+	      	</div>
+    	</div>
+	</div>
+  <script type="text/javascript">
+  	//1
+    document.querySelector(".answer1").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer2").onclick = function(){
+      alert('правильно')
+     
+      document.querySelector('.question1').style.display = 'none';
+      document.querySelector('.question2').style.display = 'block';
+  
+   
+    }
+    
+    document.querySelector(".answer3").onclick = function(){
+      alert('неправильно')
+    }
+
+    //2
+    document.querySelector(".answer4").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer5").onclick = function(){
+      alert('правильно')
+
+      document.querySelector('.question2').style.display = 'none';
+      document.querySelector('.question3').style.display = 'block';
+
+    }
+    document.querySelector(".answer6").onclick = function(){
+      alert('неправильно')
+
+    }
+
+    //3
+    document.querySelector(".answer7").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer8").onclick = function(){
+      alert('правильно')
+      document.querySelector('.question3').style.display = 'none';
+      document.querySelector('.question4').style.display = 'block';
+
+    }
+    document.querySelector(".answer9").onclick = function(){
+      alert('неправильно')
+
+    }
+
+    //4
+    document.querySelector(".answer10").onclick = function(){
+      alert('правильно')
+      document.querySelector('.question4').style.display = 'none';
+      document.querySelector('.question5').style.display = 'block';
+    }
+    document.querySelector(".answer11").onclick = function(){
+      alert('неправильно')
+
+    }
+ 	document.querySelector(".answer12").onclick = function(){
+      alert('неправильно')
+
+    }
+
+   //5
+   document.querySelector(".answer13").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer14").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer15").onclick = function(){
+      alert('правильно')
+      document.querySelector('.question5').style.display = 'none';
+      document.querySelector('.question6').style.display = 'block';
+    }
+    
+    //6
+    document.querySelector(".answer16").onclick = function(){
+      alert('правильно')
+
+      document.querySelector('.question6').style.display = 'none';
+      document.querySelector('.question7').style.display = 'block';
+    }
+    document.querySelector(".answer17").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer18").onclick = function(){
+      alert('неправильно')
+
+    }
+
+    //7
+    document.querySelector(".answer19").onclick = function(){
+      alert('неправильно')
+
+    }
+    document.querySelector(".answer20").onclick = function(){
+      alert('правильно')
+
+      document.querySelector('.question7').style.display = 'none';
+      
+    }
+    document.querySelector(".answer21").onclick = function(){
+      alert('неправильно')
+
+    }
+
+  </script>
+  </body>
+</html>
